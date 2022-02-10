@@ -1,0 +1,13 @@
+:root {
+    /* Colors */
+    --black: #000000;
+    --light-black: #414146;
+    --accent: #ff501e;
+    --light-accent: #ff744d;
+    --dark-gray: #9799a4;
+    --gray: #c8cbd9;
+    --light-gray: #f0f1f6;
+
+    /* Fonts */
+    --font-stack: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+}
