@@ -1,0 +1,157 @@
+.travel-place {
+    margin: 92px 0;
+}
+
+.travel-place__container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 48px;
+}
+
+.travel-place__item {
+    display: grid;
+    grid-gap: 48px 40px;
+    grid-template-columns: 1fr 1.05fr;
+}
+
+.travel-place__item:not(:first-child) {
+    margin-top: 80px;
+}
+
+.travel-place__title {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.travel-place__link {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    transition: opacity 0.4s ease;
+}
+
+.travel-place__link:hover {
+    opacity: 0.8;
+}
+
+.travel-place__url {
+    margin-bottom: 12px;
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.travel-place__link-wrapper {
+    align-self: flex-end;
+}
+
+.travel-place__image {
+    align-self: flex-start;
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+}
+
+.travel-place__image_kosa {
+    background-image: url("/src/images/place-kosa.jpg");
+}
+
+.travel-place__image_kolskey {
+    background-image: url("/src/images/place-kolsky.jpg");
+}
+
+.travel-place__image_altai {
+    background-image: url("/src/images/place-altai.jpg");
+}
+
+.travel-place__image_baikal {
+    background-image: url("/src/images/place-winter-baikal.jpg");
+}
+
+.travel-place__image_karelia {
+    background-image: url("/src/images/place-karelia.jpg");
+}
+
+.travel-place__text {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.travel-place__text:not(:first-child) {
+    margin-top: 26px;
+}
+
+@media (max-width: 1025px) {
+    .travel-place__item {
+        grid-gap: 48px 32px;
+    }
+}
+
+@media (max-width: 769px) {
+    .travel-place__container {
+        padding: 0 24px;
+    }
+
+    .travel-place__item {
+        grid-gap: 48px 28px;
+    }
+
+    .travel-place__item:not(:first-child) {
+        margin-top: 72px;
+    }
+
+    .travel-place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .travel-place__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 541px) {
+    .travel-place {
+        margin: 64px 0;
+    }
+
+    .travel-place__container {
+        padding: 0;
+    }
+
+    .travel-place__item {
+        display: block;
+    }
+
+    .travel-place__item:not(:first-child) {
+        margin-top: 50px;
+    }
+
+    .travel-place__link-wrapper {
+        margin-top: 32px;
+        padding: 0 16px;
+    }
+
+    .travel-place__link {
+        margin-top: 12px;
+    }
+
+    .travel-place__title {
+        padding: 0 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .travel-place__image {
+        margin: 32px 0;
+    }
+
+    .travel-place__text {
+        padding: 0 16px;
+    }
+}
