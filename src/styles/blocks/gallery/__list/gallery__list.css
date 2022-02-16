@@ -1,0 +1,26 @@
+.gallery__list {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1025px) {
+    .gallery__list {
+        grid-gap: 14px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 769px) {
+    .gallery__list {
+        grid-gap: 16px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 541px) {
+    .gallery__list {
+        grid-gap: 12px;
+        grid-template-columns: 1fr;
+    }
+}

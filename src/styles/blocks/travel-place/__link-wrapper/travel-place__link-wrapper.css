@@ -1,0 +1,10 @@
+.travel-place__link-wrapper {
+    align-self: flex-end;
+}
+
+@media (max-width: 541px) {
+    .travel-place__link-wrapper {
+        margin-top: 32px;
+        padding: 0 16px;
+    }
+}

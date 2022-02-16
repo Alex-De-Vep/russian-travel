@@ -1,0 +1,20 @@
+.hero__image-description {
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+@media (max-width: 769px) {
+    .hero__image-description {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 541px) {
+    .hero__image-description {
+        padding: 0 16px;
+    }
+}

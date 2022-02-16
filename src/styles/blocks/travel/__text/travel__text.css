@@ -1,0 +1,15 @@
+.travel__text {
+    max-width: 360px;
+    margin: 47px auto 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media (max-width: 541px) {
+    .travel__text {
+        margin: 20px auto 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

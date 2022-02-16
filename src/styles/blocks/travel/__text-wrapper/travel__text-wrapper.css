@@ -1,0 +1,13 @@
+.travel__text-wrapper {
+    position: absolute;
+    top: 31%;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 769px) {
+    .travel__text-wrapper {
+        top: 23%;
+    }
+}

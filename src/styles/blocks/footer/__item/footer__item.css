@@ -1,0 +1,10 @@
+.footer__item:not(:first-child) {
+    margin-left: 18px;
+}
+
+@media (max-width: 541px) {
+    .footer__item:not(:first-child) {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+}

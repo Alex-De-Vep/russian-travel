@@ -2,37 +2,6 @@
     margin-top: 92px;
 }
 
-.not-see__title {
-    color: #ffffff;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-}
-
-.not-see__description {
-    max-width: 690px;
-    color: #ffffff;
-    margin-top: 40px;
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.not-see__list {
-    margin-top: 34px;
-}
-
-.not-see__item,
-.not-see__item-number {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-.not-see__item-number {
-    font-weight: 400;
-}
-
 @media (max-width: 1025px) {
     .not-see {
         margin-top: 100px;
@@ -48,10 +17,5 @@
 @media (max-width: 541px) {
     .not-see {
         margin-top: 64px;
-    }
-
-    .not-see__title {
-        font-size: 32px;
-        line-height: 35px;
     }
 }

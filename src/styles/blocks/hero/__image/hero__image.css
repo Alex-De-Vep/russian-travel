@@ -1,0 +1,12 @@
+.hero__image {
+    margin-top: 64px;
+
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 541px) {
+    .hero__image {
+        margin-top: 40px;
+    }
+}
