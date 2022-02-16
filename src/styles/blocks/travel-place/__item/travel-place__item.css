@@ -1,0 +1,35 @@
+.travel-place__item {
+    display: grid;
+    grid-gap: 48px 40px;
+    grid-template-columns: 1fr 1.05fr;
+}
+
+.travel-place__item:not(:first-child) {
+    margin-top: 80px;
+}
+
+@media (max-width: 1025px) {
+    .travel-place__item {
+        grid-gap: 48px 32px;
+    }
+}
+
+@media (max-width: 769px) {
+    .travel-place__item {
+        grid-gap: 48px 28px;
+    }
+
+    .travel-place__item:not(:first-child) {
+        margin-top: 72px;
+    }
+}
+
+@media (max-width: 541px) {
+    .travel-place__item {
+        display: block;
+    }
+
+    .travel-place__item:not(:first-child) {
+        margin-top: 50px;
+    }
+}

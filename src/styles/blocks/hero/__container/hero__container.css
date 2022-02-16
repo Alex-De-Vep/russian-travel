@@ -1,0 +1,11 @@
+.hero__container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 48px;
+}
+
+@media (max-width: 769px) {
+    .hero__container {
+        padding: 0;
+    }
+}

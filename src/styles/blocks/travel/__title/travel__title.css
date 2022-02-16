@@ -1,0 +1,15 @@
+.travel__title {
+    max-width: 560px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+@media (max-width: 541px) {
+    .travel__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
