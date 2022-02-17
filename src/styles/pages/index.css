@@ -27,13 +27,14 @@
 @import url("../blocks/gallery/__image/gallery__image.css");
 @import url("../blocks/travel-place/travel-place.css");
 @import url("../blocks/travel-place/__container/travel-place__container.css");
+@import url("../blocks/travel-place/__list/travel-place__list.css");
+@import url("../blocks/travel-place/__item/travel-place__item.css");
 @import url("../blocks/travel-place/__image/travel__image.css");
 @import url("../blocks/travel-place/__image/_altai/travel-place__image_altai.css");
 @import url("../blocks/travel-place/__image/_baikal/travel-place__image_baikal.css");
 @import url("../blocks/travel-place/__image/_karelia/travel-place__image_karelia.css");
 @import url("../blocks/travel-place/__image/_kolskey/travel-place__image-kolskey.css");
 @import url("../blocks/travel-place/__image/_kosa/travel-place__image_kosa.css");
-@import url("../blocks/travel-place/__item/travel-place__item.css");
 @import url("../blocks/travel-place/__link/travel-place__link.css");
 @import url("../blocks/travel-place/__link-wrapper/travel-place__link-wrapper.css");
 @import url("../blocks/travel-place/__text/travel-place__text.css");
