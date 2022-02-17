@@ -1,5 +1,6 @@
 .footer__list {
     display: flex;
+    list-style: none;
 }
 
 @media (max-width: 541px) {
